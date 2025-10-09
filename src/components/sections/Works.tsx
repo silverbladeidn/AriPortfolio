@@ -2,6 +2,7 @@ import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
 
 import { github } from "../../assets";
+import { link } from "../../assets";
 import { SectionWrapper } from "../../hoc";
 import { projects } from "../../constants";
 import { fadeIn } from "../../utils/motion";
@@ -16,6 +17,7 @@ const ProjectCard: React.FC<{ index: number } & TProject> = ({
   tags,
   image,
   sourceCodeLink,
+  websiteLink,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -26,14 +28,14 @@ const ProjectCard: React.FC<{ index: number } & TProject> = ({
         tiltMaxAngleY={30}
         glareColor="#aaa6c3"
       >
-        <div className="bg-tertiary w-full rounded-2xl p-5 sm:w-[300px]">
+        <div className="bg-tertiary w-full rounded-2xl p-5 sm:w-[362px]">
           <div className="relative h-[230px] w-full">
             <img
               src={image}
               alt={name}
               className="h-full w-full rounded-2xl object-cover"
             />
-            <div className="card-img_hover absolute inset-0 m-3 flex justify-end">
+            <div className="card-img_hover absolute inset-0 m-3 gap-1 flex justify-end">
               <div
                 onClick={() => window.open(sourceCodeLink, "_blank")}
                 className="black-gradient flex h-10 w-10 cursor-pointer items-center justify-center rounded-full"
@@ -41,6 +43,16 @@ const ProjectCard: React.FC<{ index: number } & TProject> = ({
                 <img
                   src={github}
                   alt="github"
+                  className="h-1/2 w-1/2 object-contain"
+                />
+              </div>
+              <div
+                onClick={() => window.open(websiteLink, "_blank")}
+                className="violet-gradient flex h-10 w-10 cursor-pointer items-center justify-center rounded-full"
+              >
+                <img
+                  src={link}
+                  alt="link"
                   className="h-1/2 w-1/2 object-contain"
                 />
               </div>
@@ -86,4 +98,4 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Works, "project");

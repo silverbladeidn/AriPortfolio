@@ -11,6 +11,14 @@ export type TExperience = {
   points: string[];
 } & Required<Omit<TCommonProps, "name">>;
 
+
+export type TEducation = {
+  companyName: string;
+  iconBg: string;
+  date: string;
+  points: string[];
+} & Required<Omit<TCommonProps, "name">>;
+
 export type TTestimonial = {
   testimonial: string;
   designation: string;
@@ -26,6 +34,7 @@ export type TProject = {
   }[];
   image: string;
   sourceCodeLink: string;
+  websiteLink: string;
 } & Required<Pick<TCommonProps, "name">>;
 
 export type TTechnology = Required<Omit<TCommonProps, "title">>;

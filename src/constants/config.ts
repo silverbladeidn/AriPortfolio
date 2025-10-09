@@ -33,20 +33,22 @@ type TConfig = {
   sections: {
     about: Required<TSection>;
     experience: TSection;
+    education: TSection;
     feedbacks: TSection;
+    techs: TSection;
     works: Required<TSection>;
   };
 };
 
 export const config: TConfig = {
   html: {
-    title: "John Doe — 3D Portfolio",
-    fullName: "John Doe",
-    email: "johndoe@mail.com",
+    title: "Ari Royani Biya — Portfolio",
+    fullName: "Ari Royani Biya",
+    email: "aribiya@gmail.com",
   },
   hero: {
-    name: "John Doe",
-    p: ["I develop 3D visuals, user", "interfaces and web applications"],
+    name: "Ari Royani Biya",
+    p: ["A Tech Founder and", "interested about web development"],
   },
   contact: {
     p: "Get in touch",
@@ -67,22 +69,26 @@ export const config: TConfig = {
     about: {
       p: "Introduction",
       h2: "Overview.",
-      content: `I'm a skilled software developer with experience in TypeScript and
-      JavaScript, and expertise in frameworks like React, Node.js, and
-      Three.js. I'm a quick learner and collaborate closely with clients to
-      create efficient, scalable, and user-friendly solutions that solve
-      real-world problems. Let's work together to bring your ideas to life!`,
+      content: `Founder & CEO of a startup technology company focused on software development services and digital product innovation. Passionate about web development, with interests in English and Japanese literature. Currently developing experience in business planning and team management while collaborating with schools and marketing agencies to create technology solutions, design promotional strategies, and expand partner networks. Recognized for honesty, responsibility, and the ability to work effectively both independently and in a team.`,
     },
     experience: {
-      p: "What I have done so far",
+      p: "What Ari has done so far",
       h2: "Work Experience.",
+    },
+    education: {
+      p: "What Ari has learn so far",
+      h2: "Education Experience.",
     },
     feedbacks: {
       p: "What others say",
       h2: "Testimonials.",
     },
+    techs: {
+      p: "What Ari have for his work?",
+      h2: "Skills.",
+    },
     works: {
-      p: "My work",
+      p: "Ari's Projects",
       h2: "Projects.",
       content: `Following projects showcases my skills and experience through
     real-world examples of my work. Each project is briefly described with
