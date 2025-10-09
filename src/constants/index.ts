@@ -132,6 +132,18 @@ const technologies: TTechnology[] = [
 ];
 
 const experiences: TExperience[] = [
+  
+  {
+    title: "Founder",
+    companyName: "Galaksi Teknologi Nusantara",
+    icon: "",
+    iconBg: "#E6DEDD",
+    date: "Sep 2025 - Now",
+    points: [
+      "Lead application development services and digital product initiatives",
+      "Responsible for business planning, team management, and collaboration with schools and marketing agencies to design technology solutions, develop promotional strategies, and expand partner networks"
+    ],
+  },
   {
     title: "Software Developer (Contract)",
     companyName: "PT Easysoft Indonesia",
@@ -173,7 +185,6 @@ const experiences: TExperience[] = [
     ],
   },
 ];
-
 
 const educations: TEducation[] = [
   {
