@@ -186,6 +186,7 @@ const experiences: TExperience[] = [
   },
 ];
 
+
 const educations: TEducation[] = [
   {
     title: "Informatics",
