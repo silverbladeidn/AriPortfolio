@@ -30,10 +30,10 @@ import {
   arabic,
   easysoft,
   mysql,
-  mobirise,
   spring,
   postman,
-  postgresql
+  postgresql,
+  nodejs
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -84,7 +84,7 @@ const services: TService[] = [
 
 const technologies: TTechnology[] = [
   {
-    name: "React JS",
+    name: "React.jS",
     icon: reactjs,
   },
   {
@@ -100,6 +100,10 @@ const technologies: TTechnology[] = [
     icon: express,
   },
   {
+    name: "Node.js",
+    icon: nodejs,
+  },
+  {
     name: "Git",
     icon: git,
   },
@@ -110,10 +114,6 @@ const technologies: TTechnology[] = [
   {
     name: "Figma",
     icon: figma,
-  },
-  {
-    name: "Mobirise",
-    icon: mobirise,
   },
   {
     name: "MYSql",
