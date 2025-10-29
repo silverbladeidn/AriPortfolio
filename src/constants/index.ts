@@ -11,11 +11,13 @@ import type {
 import {
   vue,
   laravel,
+  express,
+  nocturnity,
+  expresscomp,
   school,
   mutu,
   gundar,
   sqii,
-  nodejs,
   reactjs,
   msql,
   git,
@@ -94,8 +96,8 @@ const technologies: TTechnology[] = [
     icon: vue,
   },
   {
-    name: "Node.js",
-    icon: nodejs,
+    name: "Express.js",
+    icon: express,
   },
   {
     name: "Git",
@@ -240,7 +242,44 @@ const testimonials: TTestimonial[] = [
 ];
 
 const projects: TProject[] = [
+  
    {
+    name: "Website of Marketing Agency Company Profile",
+    description:
+      "Develop the website backend and frontend. And, connect the API of Marketing Agency Company Profile Website with Node.js and React.js",
+    tags: [
+      {
+        name: "nodejs",
+        color: "black-text-gradient",
+      },
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: nocturnity,
+    sourceCodeLink: "https://github.com/silverbladeidn/nocturnity-fe",
+    websiteLink: "https://nocturnity-creative.vercel.app/"
+  },
+  {
+    name: "Website of Electronic Store Management",
+    description:
+      "Develop the website backend and frontend. And, connect the API of Electronic Store Management Website with Express.js and Vue.js",
+    tags: [
+      {
+        name: "expressjs",
+        color: "black-text-gradient",
+      },
+      {
+        name: "vuejs",
+        color: "green-text-gradient",
+      },
+    ],
+    image: expresscomp,
+    sourceCodeLink: "https://github.com/silverbladeidn/nocturnity-fe",
+    websiteLink: ""
+  },
+  {
     name: "Website of School Invetory Management",
     description:
       "Develop the website backend and frontend. And, test the API of School Invetory Management Website with Laravel, React.js, MySQL and Postman API.",
@@ -264,7 +303,7 @@ const projects: TProject[] = [
     ],
     image: school,
     sourceCodeLink: "https://github.com/nsi-hpkom",
-    websiteLink: "https://nsi.athenateknologi.com/"
+    websiteLink: ""
   },
   {
     name: "Website of Arabic Vocabulary Learning",
@@ -290,7 +329,7 @@ const projects: TProject[] = [
     ],
     image: arabic,
     sourceCodeLink: "https://github.com/nsi-hpkom",
-    websiteLink: "https://nsi.athenateknologi.com/"
+    websiteLink: ""
   },
   {
     name: "Production and Distribution of Chemical Factory Website",
@@ -320,7 +359,7 @@ const projects: TProject[] = [
     ],
     image: nsi,
     sourceCodeLink: "https://github.com/nsi-hpkom",
-    websiteLink: "https://nsi.athenateknologi.com/"
+    websiteLink: ""
   },
   {
     name: "Make Up Artist's Portfolio Website",
@@ -355,7 +394,7 @@ const projects: TProject[] = [
     ],
     image: muajeje,
     sourceCodeLink: "https://github.com/silverbladeidn/MuaByJelita",
-    websiteLink: "https://muabyjelita.aribiya.com/"
+    websiteLink: "https://mua-by-jelita.vercel.app/"
   },
   {
     name: "Distribution of Oil and Coconut Consumers Web Mapping",

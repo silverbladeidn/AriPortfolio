@@ -23,6 +23,7 @@ import typescript from "./tech/typescript.png";
 import vue from "./tech/vue.png";
 import laravel from "./tech/laravel.png";
 import threejs from "./tech/threejs.svg";
+import express from "./tech/express.svg";
 import mysql from "./tech/mysql.svg";
 import msql from "./tech/msql.png";
 import mobirise from "./tech/mobirise.png";
@@ -48,18 +49,22 @@ import fph8 from "./fph8.png";
 import nsi from "./nsi.png";
 import arabic from "./arabic.png"
 import school from "./school.png"
+import nocturnity from "./nocturnity.png"
+import expresscomp from "./expresscomp.png"
 import oilcoco from "./1726544813001.jpeg"
 
 export {
   logo,
   backend,
   oilcoco,
+  express,
   sau,
   msql,
   mutu,
   fph8,
   muajeje,
   nsi,
+  expresscomp,  
   easysoft,
   sqii,
   school,
@@ -80,6 +85,7 @@ export {
   figma,
   spring,
   mysql,
+  nocturnity,
   git,
   html,
   javascript,
