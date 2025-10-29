@@ -23,7 +23,7 @@ import typescript from "./tech/typescript.png";
 import vue from "./tech/vue.png";
 import laravel from "./tech/laravel.png";
 import threejs from "./tech/threejs.svg";
-import express from "./tech/express.svg";
+import express from "./tech/express.png";
 import mysql from "./tech/mysql.svg";
 import msql from "./tech/msql.png";
 import mobirise from "./tech/mobirise.png";
