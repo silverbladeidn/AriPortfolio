@@ -24,6 +24,7 @@ import vue from "./tech/vue.png";
 import laravel from "./tech/laravel.png";
 import threejs from "./tech/threejs.svg";
 import express from "./tech/express.png";
+import gin from "./tech/gin.png";
 import mysql from "./tech/mysql.svg";
 import msql from "./tech/msql.png";
 import mobirise from "./tech/mobirise.png";
@@ -40,6 +41,7 @@ import tesla from "./company/tesla.png";
 import easysoft from "./company/easysoft.png";
 import mutu from "./company/mutu-new-logo.png";
 import sau from "./company/sauuu.jpg";
+import galaktek from "./company/Logo galaktek.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -49,9 +51,11 @@ import fph8 from "./fph8.png";
 import nsi from "./nsi.png";
 import arabic from "./arabic.png"
 import school from "./school.png"
-import nocturnity from "./nocturnity.png"
+import nocturnity from "./Screenshot (617).png"
 import expresscomp from "./expresscomp.png"
 import oilcoco from "./1726544813001.jpeg"
+import inung from "./Screenshot (615).png"
+
 
 export {
   logo,
@@ -63,13 +67,16 @@ export {
   mutu,
   fph8,
   muajeje,
+  inung,
   nsi,
   expresscomp,  
   easysoft,
   sqii,
   school,
+  galaktek,
   postgresql,
   arabic,
+  gin,
   gundar,
   creator,
   vue,

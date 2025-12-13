@@ -13,12 +13,14 @@ import {
   laravel,
   express,
   nocturnity,
+  galaktek,
   expresscomp,
   school,
   mutu,
   gundar,
   sqii,
   reactjs,
+  inung,
   msql,
   git,
   figma,
@@ -28,6 +30,7 @@ import {
   oilcoco,
   sau,
   arabic,
+  gin, 
   easysoft,
   mysql,
   spring,
@@ -112,6 +115,10 @@ const technologies: TTechnology[] = [
     icon: spring,
   },
   {
+    name: "Gin",
+    icon: gin,
+  },
+  {
     name: "Figma",
     icon: figma,
   },
@@ -138,7 +145,7 @@ const experiences: TExperience[] = [
   {
     title: "Founder",
     companyName: "Galaksi Teknologi Nusantara",
-    icon: "",
+    icon: galaktek,
     iconBg: "#E6DEDD",
     date: "Sep 2025 - Now",
     points: [
@@ -244,14 +251,28 @@ const testimonials: TTestimonial[] = [
 const projects: TProject[] = [
   
    {
-    name: "Website of Marketing Agency Company Profile",
+    name: "Website of Wildlife and Nature Conservation Management",
     description:
-      "Develop the website backend and frontend. And, connect the API of Marketing Agency Company Profile Website with Node.js and React.js",
+      "Develop the website backend and frontend. And, connect the API of Website of Wildlife and Nature Conservation Management with Gin and React.js",
     tags: [
       {
-        name: "nodejs",
-        color: "black-text-gradient",
+        name: "react",
+        color: "blue-text-gradient",
       },
+      {
+        name: "gin",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: inung,
+    sourceCodeLink: "https://github.com/silverbladeidn/inung-fe",
+    websiteLink: ""
+  },
+  {
+    name: "Website of Marketing Agency Company Profile",
+    description:
+      "Develop the website frontend of Marketing Agency Company Profile Website with and React.js",
+    tags: [
       {
         name: "react",
         color: "blue-text-gradient",
