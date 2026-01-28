@@ -13,30 +13,25 @@ import {
   laravel,
   express,
   nocturnity,
-  galaktek,
   expresscomp,
   school,
   mutu,
   gundar,
   sqii,
   reactjs,
-  inung,
   msql,
   git,
   figma,
   nsi,
   muajeje,
-  fph8,
-  oilcoco,
   sau,
-  arabic,
-  gin, 
   easysoft,
   mysql,
   spring,
+  goodong,
+  ifam,
   postman,
   postgresql,
-  nodejs
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -103,20 +98,12 @@ const technologies: TTechnology[] = [
     icon: express,
   },
   {
-    name: "Node.js",
-    icon: nodejs,
-  },
-  {
     name: "Git",
     icon: git,
   },
   {
     name: "Spring",
     icon: spring,
-  },
-  {
-    name: "Gin",
-    icon: gin,
   },
   {
     name: "Figma",
@@ -143,28 +130,17 @@ const technologies: TTechnology[] = [
 const experiences: TExperience[] = [
   
   {
-    title: "Founder",
-    companyName: "Galaksi Teknologi Nusantara",
-    icon: galaktek,
-    iconBg: "#E6DEDD",
-    date: "Sep 2025 - Now",
-    points: [
-      "Lead application development services and digital product initiatives",
-      "Responsible for business planning, team management, and collaboration with schools and marketing agencies to design technology solutions, develop promotional strategies, and expand partner networks"
-    ],
-  },
-  {
-    title: "Software Developer (Contract)",
+    title: "Software Developer (Assistant)",
     companyName: "PT Easysoft Indonesia",
     icon: easysoft,
     iconBg: "#E6DEDD",
     date: "Jul 2024 - Oct 2024",
     points: [
-      "Developed an admin application using React.js with a futuristic UI to enhance user experience.",
-      "Built a Spring Boot system with CRUD functionality, asynchronous & synchronous processing, and ThreadPool concurrency management.",
-      "Designed mockups with Figma and collaborated closely with the lead developer.",
-      "Contributed to an editable chat feature (15-minute window) with initial exposure to Kotlin.",
-      "Trained an AI Chatbot dataset using the 5W1H method to improve accuracy and relevance.",
+    "Develop an internal admin application using React.js to improve usability and workflow efficiency.",
+    "Learn backend services using Java Spring Boot, implementing CRUD operations.",
+    "Assist to the lead developer on system design and UI mock up using Figma.",
+    "Assist to the web developer team in HTML and CSS Email Template development.",
+    "Assist in chatbot dataset preparation using structured 5W1H methods.",
     ],
   },
   {
@@ -174,9 +150,10 @@ const experiences: TExperience[] = [
     iconBg: "#E6DEDD",
     date: "Sep 2023 - Jan 2024",
     points: [
-      "Supported ICT operations and testing while contributing to internal projects using Laravel, PostgreSQL, and ERD design.",
-      "Designed basic ERD structures and created UI mockups in Figma.",
-      "Conducted introductory HTML training for staff to improve digital literacy.",
+      "Join in the team to develop internal web-based systems using Laravel and PostgreSQL.",
+"Design the basic ERD structures and assisted in database-related tasks.", 
+"Create the UI mockups using Figma to support internal application development.", 
+"Sharing session the introductory HTML for internal staff.", 
     ],
   },
   {
@@ -186,11 +163,9 @@ const experiences: TExperience[] = [
     iconBg: "#E6DEDD",
     date: "Apr 2022 - Jul 2022",
     points: [
-      "Built a web mapping application using Python, PHP, JavaScript, MySQL, and Leaflet.js.",
-      "Designed and integrated ERD structures, ensuring optimized database performance.",
-      "Created interactive location data selection & visualization features with Leaflet.js.",
-      "Developed backend application mockups in Figma, then implemented with PHP, JS, HTML, and CSS.",
-      "Presented proposals to the supervisory team, showcasing workflow and application benefits.",
+      "Developed a web-based mapping application using PHP, Python, JavaScript, MySQL, and Leaflet.js.",
+"Designed and implemented entity relational database diagram to support mapping data.",
+"Created backend application mock up in Figma and implemented them using PHP, HTML, CSS, and JavaScript.",
     ],
   },
 ];
@@ -250,42 +225,79 @@ const testimonials: TTestimonial[] = [
 
 const projects: TProject[] = [
   
-   {
-    name: "Website of Wildlife and Nature Conservation Management",
+  {
+    name: "Company Inventory Management SaaS Platform (Goodong.id)",
     description:
-      "Develop the website backend and frontend. And, connect the API of Website of Wildlife and Nature Conservation Management with Gin and React.js",
+      "Built dashboard components and managed feature releases for the SaaS platform of Goodong.id using React.js, Laravel, and MySQL.",
     tags: [
+      {
+        name: "laravel",
+        color: "pink-text-gradient",
+      },
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "gin",
-        color: "yellow-text-gradient",
+        name: "MySQL",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "postman-api",
+        color: "orange-text-gradient",
+      }
+    ],
+    image: goodong,
+    sourceCodeLink: "https://github.com/silverbladeidn/gudangin-admin-fe",
+    sourceCodeLink2: "https://github.com/silverbladeidn/gudangin-be",
+    websiteLink: ""
+  },
+  {
+    name: "Fleet and Asset Management SaaS Platform (IFAM)",
+    description:
+      "Develop the website backend and frontend. And, test the API of Fleet and Asset Management SaaS Platform (IFAM) with Spring Java, React.js, and PostgreSQL.",
+    tags: [
+      {
+        name: "spring",
+        color: "green-text-gradient",
+      },
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "PostgreSQL",
+        color: "blue-text-gradient",
       },
     ],
-    image: inung,
-    sourceCodeLink: "https://github.com/silverbladeidn/inung-fe",
+    image: ifam,
+    sourceCodeLink: "https://github.com/silverbladeidn/ifam-admin-fe",
+    sourceCodeLink2: "https://github.com/silverbladeidn/ifam-admin-be",
     websiteLink: ""
   },
   {
     name: "Website of Marketing Agency Company Profile",
     description:
-      "Develop the website frontend of Marketing Agency Company Profile Website with and React.js",
+      "Develop the website frontend of Marketing Agency Company Profile Website and integrate the Email Sending feature using React.js, ExpressJS, and Tailwind CSS.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
+      {
+        name: "expressjs",
+        color: "black-text-gradient",
+      },
     ],
     image: nocturnity,
     sourceCodeLink: "https://github.com/silverbladeidn/nocturnity-fe",
+    sourceCodeLink2: "https://github.com/silverbladeidn/nocturnity-be",
     websiteLink: "https://nocturnity-creative.vercel.app/"
   },
   {
-    name: "Website of Electronic Store Management",
+    name: "Website of Computer Store Management",
     description:
-      "Develop the website backend and frontend. And, connect the API of Electronic Store Management Website with Express.js and Vue.js",
+      "Develop the website backend and frontend. And, connect the API of Computer Store Management Website with Express.js, Vue.js, and MySQL.",
     tags: [
       {
         name: "expressjs",
@@ -297,7 +309,8 @@ const projects: TProject[] = [
       },
     ],
     image: expresscomp,
-    sourceCodeLink: "https://github.com/silverbladeidn/nocturnity-fe",
+    sourceCodeLink: "https://github.com/silverbladeidn/express-vue-electronic",
+    sourceCodeLink2: "",
     websiteLink: ""
   },
   {
@@ -314,7 +327,7 @@ const projects: TProject[] = [
         color: "blue-text-gradient",
       },
       {
-        name: "postgresql",
+        name: "MySQL",
         color: "blue-text-gradient",
       },
       {
@@ -323,33 +336,8 @@ const projects: TProject[] = [
       }
     ],
     image: school,
-    sourceCodeLink: "https://github.com/nsi-hpkom",
-    websiteLink: ""
-  },
-  {
-    name: "Website of Arabic Vocabulary Learning",
-    description:
-      "Develop the website backend and frontend. And, test the API of Arabic Vocabulary Learning Website with Spring Boot, React.js, PostgreSQL and Postman API.",
-    tags: [
-      {
-        name: "spring",
-        color: "green-text-gradient",
-      },
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "postgresql",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "postman-api",
-        color: "orange-text-gradient",
-      }
-    ],
-    image: arabic,
-    sourceCodeLink: "https://github.com/nsi-hpkom",
+    sourceCodeLink: "https://github.com/silverbladeidn/inventopia-fe",
+    sourceCodeLink2: "https://github.com/silverbladeidn/inventopia-be",
     websiteLink: ""
   },
   {
@@ -379,7 +367,8 @@ const projects: TProject[] = [
       }
     ],
     image: nsi,
-    sourceCodeLink: "https://github.com/nsi-hpkom",
+    sourceCodeLink: "https://github.com/nsi-hpkom/fe",
+    sourceCodeLink2: "https://github.com/nsi-hpkom/be",
     websiteLink: ""
   },
   {
@@ -415,47 +404,8 @@ const projects: TProject[] = [
     ],
     image: muajeje,
     sourceCodeLink: "https://github.com/silverbladeidn/MuaByJelita",
+    sourceCodeLink2: "https://github.com/silverbladeidn/nocturnity-be",
     websiteLink: "https://mua-by-jelita.vercel.app/"
-  },
-  {
-    name: "Distribution of Oil and Coconut Consumers Web Mapping",
-    description:
-      "Develop the web mapping of Distribution of Oil and Coconut Consumers with Laravel, AJAX, Bootstrap, Mobirise, Leaflet.js, and MySQL.",
-    tags: [
-      {
-        name: "laravel",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "mysql",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "postman-api",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "mobirise",
-        color: "orange-text-gradient",
-      }
-    ],
-    image: oilcoco,
-    sourceCodeLink: "https://github.com/silverbladeidn/OilCocoMap",
-    websiteLink: "https://oilcoco.aribiya.com/"
-  },
-  {
-    name: "Final Project of Hacktiv8",
-    description:
-      "Develop the front end of Movie website with React.Js.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      }
-    ],
-    image: fph8,
-    sourceCodeLink: "https://github.com/silverbladeidn/Final-Project-H8_Ari",
-    websiteLink: "https://final-project-h8-kfjk0pw0w-aris-projects-a196f4da.vercel.app/"
   },
 ];
 

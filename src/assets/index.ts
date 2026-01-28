@@ -54,6 +54,8 @@ import school from "./school.png"
 import nocturnity from "./Screenshot (617).png"
 import expresscomp from "./expresscomp.png"
 import oilcoco from "./1726544813001.jpeg"
+import goodong from "./goodong.png"
+import ifam from "./ifam.png"
 import inung from "./Screenshot (615).png"
 
 
@@ -61,6 +63,7 @@ export {
   logo,
   backend,
   oilcoco,
+  ifam,
   express,
   sau,
   msql,
@@ -68,6 +71,7 @@ export {
   fph8,
   muajeje,
   inung,
+  goodong,
   nsi,
   expresscomp,  
   easysoft,
