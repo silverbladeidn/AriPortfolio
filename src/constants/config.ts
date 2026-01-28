@@ -69,7 +69,10 @@ export const config: TConfig = {
   about: {
     p: "Introduction",
     h2: "Overview.",
-    content: `Creator at a technology startup specializing in software development and digital products. Passionate about web development and currently developing experience in business planning and team collaboration. Working with schools and marketing collaborators to deliver technology solutions, design promotional strategies, and expand partner networks. Recognized for honesty, responsibility, and the ability to work effectively both independently and in a team.`,
+    content: `Having skill in Backend-oriented Full-Stack Software Developer. By building API-driven web applications and 
+relational database–based systems using PHP (Laravel), Java (Spring Boot), and Node.js (Express). Have also 
+experience in RESTful API design, authentication, database modeling, and frontend integration using React.js and 
+Vue.js.`,
   },
   experience: {
     p: "What has been done so far",
