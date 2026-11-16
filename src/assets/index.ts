@@ -41,7 +41,7 @@ import tesla from "./company/tesla.png";
 import easysoft from "./company/easysoft.png";
 import mutu from "./company/mutu-new-logo.png";
 import sau from "./company/sauuu.jpg";
-import galaktek from "./company/Logo galaktek.png";
+import tribhakti from "./company/tribhakti.jpg"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -113,6 +113,7 @@ export {
   shopify,
   starbucks,
   tesla,
+  tribhakti,
   carrent,
   jobit,
   tripguide,

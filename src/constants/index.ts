@@ -20,6 +20,7 @@ import {
   sqii,
   reactjs,
   msql,
+  tribhakti,
   git,
   figma,
   nsi,
@@ -128,7 +129,20 @@ const technologies: TTechnology[] = [
 ];
 
 const experiences: TExperience[] = [
-  
+  {
+    title: "Information and Technology Officer",
+    companyName: "PT Tribhakti Inspektama",
+    icon: tribhakti,
+    iconBg: "#E6DEDD",
+    date: "Feb 2026 - Now",
+    points: [
+      "Developed and maintained web-based Driver Booking and Vehicle Management system",
+      "Researched and analyzed user requirements across multiple departments to optimize system design",
+      "Designed and implemented system flowcharts and relational database schemas supporting CRUD operations and role-based authentication.",
+      "Created wireframes and UI mockups using Figma and Draw.io to significantly improve application usability and user experience.",
+      "Managed and supported daily office IT operations, network connectivity, and hardware maintenance, including wireless CCTV systems, modems, and printers.",
+    ],
+  },
   {
     title: "Software Developer (Assistant)",
     companyName: "PT Easysoft Indonesia",
@@ -136,11 +150,11 @@ const experiences: TExperience[] = [
     iconBg: "#E6DEDD",
     date: "Jul 2024 - Oct 2024",
     points: [
-    "Develop an internal admin application using React.js to improve usability and workflow efficiency.",
-    "Learn backend services using Java Spring Boot, implementing CRUD operations.",
-    "Assist to the lead developer on system design and UI mock up using Figma.",
-    "Assist to the web developer team in HTML and CSS Email Template development.",
-    "Assist in chatbot dataset preparation using structured 5W1H methods.",
+      "Develop an internal admin application using React.js to improve usability and workflow efficiency.",
+      "Learn backend services using Java Spring Boot, implementing CRUD operations.",
+      "Assist to the lead developer on system design and UI mock up using Figma.",
+      "Assist to the web developer team in HTML and CSS Email Template development.",
+      "Assist in chatbot dataset preparation using structured 5W1H methods.",
     ],
   },
   {
@@ -151,9 +165,9 @@ const experiences: TExperience[] = [
     date: "Sep 2023 - Jan 2024",
     points: [
       "Join in the team to develop internal web-based systems using Laravel and PostgreSQL.",
-"Design the basic ERD structures and assisted in database-related tasks.", 
-"Create the UI mockups using Figma to support internal application development.", 
-"Sharing session the introductory HTML for internal staff.", 
+      "Design the basic ERD structures and assisted in database-related tasks.",
+      "Create the UI mockups using Figma to support internal application development.",
+      "Sharing session the introductory HTML for internal staff.",
     ],
   },
   {
@@ -164,12 +178,11 @@ const experiences: TExperience[] = [
     date: "Apr 2022 - Jul 2022",
     points: [
       "Developed a web-based mapping application using PHP, Python, JavaScript, MySQL, and Leaflet.js.",
-"Designed and implemented entity relational database diagram to support mapping data.",
-"Created backend application mock up in Figma and implemented them using PHP, HTML, CSS, and JavaScript.",
+      "Designed and implemented entity relational database diagram to support mapping data.",
+      "Created backend application mock up in Figma and implemented them using PHP, HTML, CSS, and JavaScript.",
     ],
   },
 ];
-
 
 const educations: TEducation[] = [
   {
@@ -224,7 +237,6 @@ const testimonials: TTestimonial[] = [
 ];
 
 const projects: TProject[] = [
-  
   {
     name: "Company Inventory Management SaaS Platform (Goodong.id)",
     description:
@@ -245,12 +257,12 @@ const projects: TProject[] = [
       {
         name: "postman-api",
         color: "orange-text-gradient",
-      }
+      },
     ],
     image: goodong,
     sourceCodeLink: "https://github.com/silverbladeidn/gudangin-admin-fe",
     sourceCodeLink2: "https://github.com/silverbladeidn/gudangin-be",
-    websiteLink: ""
+    websiteLink: "https://goodong.id",
   },
   {
     name: "Fleet and Asset Management SaaS Platform (IFAM)",
@@ -273,7 +285,7 @@ const projects: TProject[] = [
     image: ifam,
     sourceCodeLink: "https://github.com/silverbladeidn/ifam-admin-fe",
     sourceCodeLink2: "https://github.com/silverbladeidn/ifam-admin-be",
-    websiteLink: ""
+    websiteLink: "",
   },
   {
     name: "Website of Marketing Agency Company Profile",
@@ -292,7 +304,7 @@ const projects: TProject[] = [
     image: nocturnity,
     sourceCodeLink: "https://github.com/silverbladeidn/nocturnity-fe",
     sourceCodeLink2: "https://github.com/silverbladeidn/nocturnity-be",
-    websiteLink: "https://nocturnity-creative.vercel.app/"
+    websiteLink: "https://nocturnity-creative.vercel.app/",
   },
   {
     name: "Website of Computer Store Management",
@@ -311,7 +323,7 @@ const projects: TProject[] = [
     image: expresscomp,
     sourceCodeLink: "https://github.com/silverbladeidn/express-vue-electronic",
     sourceCodeLink2: "",
-    websiteLink: ""
+    websiteLink: "",
   },
   {
     name: "Website of School Invetory Management",
@@ -333,12 +345,12 @@ const projects: TProject[] = [
       {
         name: "postman-api",
         color: "orange-text-gradient",
-      }
+      },
     ],
     image: school,
     sourceCodeLink: "https://github.com/silverbladeidn/inventopia-fe",
     sourceCodeLink2: "https://github.com/silverbladeidn/inventopia-be",
-    websiteLink: ""
+    websiteLink: "",
   },
   {
     name: "Production and Distribution of Chemical Factory Website",
@@ -364,12 +376,12 @@ const projects: TProject[] = [
       {
         name: "msql",
         color: "orange-text-gradient",
-      }
+      },
     ],
     image: nsi,
     sourceCodeLink: "https://github.com/nsi-hpkom/fe",
     sourceCodeLink2: "https://github.com/nsi-hpkom/be",
-    websiteLink: ""
+    websiteLink: "",
   },
   {
     name: "Make Up Artist's Portfolio Website",
@@ -400,13 +412,20 @@ const projects: TProject[] = [
       {
         name: "mysql",
         color: "orange-text-gradient",
-      }
+      },
     ],
     image: muajeje,
     sourceCodeLink: "https://github.com/silverbladeidn/MuaByJelita",
     sourceCodeLink2: "https://github.com/silverbladeidn/nocturnity-be",
-    websiteLink: "https://mua-by-jelita.vercel.app/"
+    websiteLink: "https://mua-by-jelita.vercel.app/",
   },
 ];
 
-export { services, technologies, experiences, educations, testimonials, projects };
+export {
+  services,
+  technologies,
+  experiences,
+  educations,
+  testimonials,
+  projects,
+};
