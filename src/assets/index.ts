@@ -77,7 +77,6 @@ export {
   easysoft,
   sqii,
   school,
-  galaktek,
   postgresql,
   arabic,
   gin,
